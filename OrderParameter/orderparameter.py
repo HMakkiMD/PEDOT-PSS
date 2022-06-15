@@ -44,8 +44,6 @@ with open(structurefilename) as f:
     file_list = f.readlines()
     for i, line in enumerate(file_list):
         if i in line_numbers:
-            #lines.append(line.strip())
-            #coordinate=line.split()
             XS.append(float(line[20:28]))
             YS.append(float(line[28:36]))
             ZS.append(float(line[36:44]))
