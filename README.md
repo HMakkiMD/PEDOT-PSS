@@ -1,1 +1,10 @@
 # PEDOT-PSS
+1- "PSS-itp-pdb-builder" contains nessecary codes to build up PSS input files (corrdinate and topology). One could select the number of (SSH) and (SS-) monomers in the "" to determine the length and the total charge of each chain. The code will randomly place the (SS-) monomers in the PSS chain.
+2- "Pistacking" contains a shell script (pi-stack.sh, an "expect" script) that runs GROMACS commands and the "pistacking.py" on the GROMACS output files (0.gro 1.gro ... 9.gro), which will be made in a folder called "GRO". The files to be further analysed will be generated in a folder called "STACK".
+3- "Inter-lamellae-contact" calculate the largest PEDOT connected netwrok based on the index files included for "two-phase-I" model (as an example). This package contains a shell script (inter-lamellae.sh, an "expect" script) that runs GROMACS commands and the "inter-lamellae.py" on the GROMACS output files (0.gro 1.gro ... 9.gro), which will be made in a folder called "GRO". The files to be further analysed will be generated in a folder called "STACK".
+4- "OrientationParameter" contains a shell script (orientationparameter.sh, an "expect" script) that runs GROMACS commands and the "orientationparameter.py" on the GROMACS output files (0.gro 1.gro ... 9.gro), which will be made in a folder called "GRO".
+
+*A trajectory and a topology file (traj.xtc and traj.tpr, for "two-phase-I" model) are also included as an example to help the packages running.
+** The codes provided in "Pistacking", "Inter-lamellae-contact", and "OrientationParameter" folders, can analyse any conjugated polymer if the nessecary input files are provided. One needs to provide an index file of all heavy atoms of the conjugated polymers in case of "Pistacking" and "OrientationParameter" and another index file for sp2 carbon of the conjugated polymer in case of "Inter-lamellae-contact". An example of each index file is provided in the relevant forlder.
+
+5- The topology files, input coordinate files (after 20 relaxation cylces), and an example of relaxation run file are included in the folder called "GROMACS-files"
