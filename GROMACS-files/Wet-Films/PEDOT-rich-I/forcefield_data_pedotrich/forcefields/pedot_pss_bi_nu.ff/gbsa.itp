@@ -1,0 +1,22 @@
+[ implicit_genborn_params ]
+; atype      sar      st     pi       gbr       hct
+h4           0.1      1      1        0.12     0.85 ; H
+c3           0.18     1      1.276    0.17     0.72 ; C  (CT)
+co           0.18     1      1.276    0.17     0.72 ; C  (CT)
+cd           0.172    0.012  1.554    0.17    0.72 ; C (CB/CC)
+cc           0.172    0.012  1.554    0.17    0.72 ; C (CB/CC)
+cf           0.172    0.012  1.554    0.17    0.72 ; C (CB/CC)
+os           0.152    1      1.080    0.15    0.85 ; O  (OH)
+ss           0.18     1      1.121    0.18    0.96 ; S  
+h1           0.1      1      1        0.12     0.85 ; H
+ce           0.172    0.012  1.554    0.17    0.72 ; C (CB/CC)
+
+ca           0.18     1      1.037    0.17    0.72 ; C
+hc           0.1      1      1        0.12     0.85 ; H
+o            0.15     1      0.926    0.15     0.85 ; O
+s6           0.18     1      1.121    0.18    0.96 ; S (S)
+ha           0.1      1      1        0.12     0.85 ; H
+
+Na           0.1      1      1.000    0.1656   1.0   ; https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1303352/pdf/1787.pdf
+                                                     ; all the Na parameters are junk except for gbr.
+
