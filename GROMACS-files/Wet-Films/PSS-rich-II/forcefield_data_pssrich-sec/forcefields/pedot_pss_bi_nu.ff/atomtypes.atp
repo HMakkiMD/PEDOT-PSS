@@ -1,0 +1,28 @@
+; name    mass  
+h1    1.0079470000    ; PEDOT: hydrogen in dioxane moiety.
+h4    1.0079470000    ; PEDOT: terminal hydrogen.
+ha    1.0079470000    ; PSS: aromatic hydrogen.
+hc    1.0079470000    ; PSS: backbone hydrogen
+ho   10.0079470000    ; PSS: sulfonate proton
+c3   12.0107800000    ; PSS: backbone carbon.
+ca   12.0107800000    ; PSS: aromatic carbon.
+cc   12.0107800000    ; PEDOT: thiophene carbon bonded to sulfur.
+cd   12.0107800000    ; PEDOT: carbon joining dioxane and thiophene rings.
+ce   12.0107800000    ; PEDOT: thiophene carbon bonded to sulfur.   
+cf   12.0107800000    ; PEDOT: thiophene carbon bonded to sulfur.   
+cg   12.0107800000    ; PEDOT: thiophene carbon bonded to sulfur.   
+co   12.0107800000    ; PEDOT: dioxane carbon
+ o   15.9994300000    ; PSS: sulfonate oxygen.
+oh   15.9994300000    ; PSS: protonated sulfonate oxygen
+os   15.9994300000    ; PEDOT: dioxane oxygen.
+s6   32.0655000000    ; PSS: sulfonate sulfur.
+sy   32.0600000000    ; PSS: protonated sulfur
+ss   32.0655000000    ; PEDOT: thiophene sulfur.
+
+Na   22.99000         ; Na+, ions pol:J.PhysC,11,1541,(1978)
+Cl   35.45000	      ; Cl-, added by Hesam from amber99
+; water
+
+OW_spc 15.99940       ; SPC Water OW
+HW_spc 1.00800        ; SPC Water HW
+
